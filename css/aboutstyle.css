@@ -1,0 +1,13 @@
+#about-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #1144019f;
+    font-size: x-large;
+    padding-right: 20px;
+}
+
+#electra-picture {
+    max-width: 500px;
+    max-height: auto;
+    padding-right: 20px;
+}

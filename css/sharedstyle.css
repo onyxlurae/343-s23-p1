@@ -1,0 +1,63 @@
+/*header is flexbox at top of screen*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    max-height: 80px;
+    width: 100%;
+}
+/*menu bar*/
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-height: inherit;
+    background-color: #114401;
+    padding: 10px 35px 10px 35px;
+    opacity: 100%;
+}
+/*nav-bar contains the nav-links*/
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    opacity: 100%;
+}
+/*the picture logo on the left of the menu bar*/
+#menu-bar-logo {
+    align-self: flex-start;
+    flex-grow: 1;
+    max-height: 100%;
+}
+/*links to the other pages*/
+.nav-link {
+    color: #f0e4b0;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+/*body*/
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    
+}
+/*body is a flex box*/
+.flex-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 100px 35px 100px 35px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eclectic Eye</title>
+    <link rel="stylesheet" href="/css/sharedstyle.css">
+    <link rel="stylesheet" href="/css/purchaseformstyle.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" type="image/jpg" href="/images/eclectic-eye-logo-icon.jpg">
+    <meta name="author" content="Onyx Bennett">
+    <meta name="description" content="Project 1 Static Website">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div><img id="menu-bar-logo" src="/images/eclectic-eye-logo-text.jpg" alt="eclectic eye logo"></div>
+            <div id="nav-bar">
+                <a class="nav-link" onmouseover="fadeout(this);" onmouseleave="fadein(this);" href="/index.html">Home</a>
+                <a class="nav-link" onmouseover="fadeout(this);" onmouseleave="fadein(this);" href="/about.html">About</a>
+                <a class="nav-link" onmouseover="fadeout(this);" onmouseleave="fadein(this);" href="/contact.html">Contact</a>
+                <a class="nav-link" onmouseover="fadeout(this);" onmouseleave="fadein(this);" href="/gallery.html">Gallery</a>
+                <a class="nav-link" onmouseover="fadeout(this);" onmouseleave="fadein(this);" href="/purchaseform.html">Custom Candle Form</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex-parent">
+        <h1>Custom Candle Form</h1>
+        <form class="order-form">
+            <!--Choose a candle from pre set collections-->
+            <h2 class="needs-top-padding">Please select from one of our collections to act as a base for your candle!</h2>
+            
+            <div class="form-group">
+                <p><label>Zodiac Collection</label></p>
+                <input type="radio" name="collection">Aries
+                <input type="radio" name="collection">Aquarius
+                <input type="radio" name="collection">Cancer
+                <input type="radio" name="collection">Capricorn
+                <input type="radio" name="collection">Gemini
+                <input type="radio" name="collection">Leo
+                <input type="radio" name="collection">Libra
+                <input type="radio" name="collection">Pisces
+                <input type="radio" name="collection">Sagittarius
+                <input type="radio" name="collection">Scorpio
+                <input type="radio" name="collection">Taurus
+                <input type="radio" name="collection">Virgo
+            </div>
+
+            <div class="form-group">
+                <p><label>Emotions Collection</label></p>
+                <input type="radio" name="collection">Sweet Dreams
+                <input type="radio" name="collection">Tranquility
+            </div>
+
+            <p class="needs-top-padding">For all other options below, select 'Base' to keep the default quality of your base candle.</p>
+
+
+            <!--Pick size, color, scent, and crystals-->
+            <div class="form-group">
+                <h2>What size candle would you like?</h2>
+                <p>Note that price may need to be raised if specifications are intensive. I will contact you if this is the case.</p>
+                <input type="radio" name="size">Tealight ($5)
+                <input type="radio" name="size">Small ($10)
+                <input type="radio" name="size">Medium ($15)
+                <input type="radio" name="size">Large ($20)
+                <input type="radio" name="size">Extra Large ($25)
+            </div>
+
+            <div class="form-group">
+                <h2><label for="color-input">What color would you like?</label></h2>
+                <input id="color-input">
+                <select name="color-input">
+                    <option value="base">Base</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="purple">Purple</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h2><label for="scent-input">What scent would you like?</label></h2>
+                <input id="scent-input">
+                <select name="scent-input">
+                    <option value="base">Base</option>
+                    <option value="lavander">Lavander</option>
+                    <option value="citrus">Citrus</option>
+                    <option value="pine">Pine</option>
+                    <option value="ocean-breeze">Ocean Breeze</option>
+                    <option value="floral">Floral</option>
+                    <option value="eygptian">Eygptian Musk</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <h2><label for="crystal-input">What type of crystal would you like?</label></h2>
+                <input id="crystal-input">
+                <select name="crystal-input">
+                    <option value="base">Base</option>
+                    <option value="roseq">Rose Quartz</option>
+                    <option value="clearq">Clear Quartz</option>
+                    <option value="tiger">Tiger's Eye</option>
+                    <option value="amethyst">Amethyst</option>
+                    <option value="citrine">Citrine</option>
+                    <option value="iolite">Iolite</option>
+                    <option value="onyx">Onyx</option>
+                    <option value="jade">Jade</option>
+                </select>
+            </div>
+
+            <p>Thank you for your interest!</p>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

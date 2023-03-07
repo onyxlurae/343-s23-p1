@@ -1,0 +1,18 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px;
+    max-width: 95vw;
+}
+.product-img {
+    margin: 10px;
+    flex-grow: inherit;
+    max-height: 300px;
+    max-width: 300px;
+}
+h1 {
+    margin-left: 20px;
+    color: #e1a747;
+}
